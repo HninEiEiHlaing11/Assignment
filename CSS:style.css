@@ -1,0 +1,35 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    margin-bottom: 20px;
+    width: 800px;
+    height: auto;
+}
+
+td {
+    min-width: 50px;
+    min-height: 30px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: maroon;
+}
+
+p {
+    font-size: 14px;
+}
+
+img {
+    margin-top: 10px;
+    border: 1px solid #ccc;
+}
