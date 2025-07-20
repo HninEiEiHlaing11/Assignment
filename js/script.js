@@ -1,6 +1,8 @@
 function showAboutMe() {
     document.getElementById('about-me-content').style.display = 'block';
     document.getElementById('placeholder-text').style.display = 'none';
+    document.querySelector('button').style.display = 'none'; 
+
 }
 
 function calculateBMI() {
