@@ -4,6 +4,7 @@ table, th, td {
 }
 
 table {
+    background-color: white;
     margin-bottom: 20px;
     width: 800px;
     height: auto;
@@ -30,6 +31,34 @@ p {
 }
 
 img {
+    display: block;
     margin-top: 10px;
     border: 1px solid #ccc;
 }
+
+.header-section {
+    background-color: #8B0000; /* Dark red */
+    color: white;
+}
+
+.navbar-section {
+    background-color: #D3D3D3; /* Light grey */
+}
+
+.left-sidebar {
+    background-color: #E0FFFF; /* Light cyan */
+}
+
+.content-section {
+    background-color: #FFFACD; /* Lemon chiffon */
+}
+
+.right-sidebar {
+    background-color: #FFE4E1; /* Misty rose */
+}
+
+.footer-section {
+    background-color: #8B4513; /* Saddle brown */
+    color: white;
+}
+
