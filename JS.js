@@ -1,3 +1,8 @@
+function showAboutMe() {
+    document.getElementById('about-me-content').style.display = 'block';
+    document.getElementById('placeholder-text').style.display = 'none';
+}
+
 function calculateBMI() {
     const height = parseFloat(document.getElementById('height').value) / 100;
     const weight = parseFloat(document.getElementById('weight').value);
